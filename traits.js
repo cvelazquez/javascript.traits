@@ -1,3 +1,13 @@
+/**
+ * A simple way to inject methods to a javascript class
+ * 
+ * @author Christian Velazquez
+ * @version 0.1
+ * @link https://github.com/cvelazquez/javascript.traits
+ * 
+ * @param object Class constructor
+ * @param mixed A function or array of functions to inject into the class
+ **/
 function use(objectClass, traitFunction){
 	if ( typeof traitFunction == 'function' ) {
 		var name = (traitFunction.name) ? traitFunction.name : traitFunction.constructor.name;
