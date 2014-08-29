@@ -4,7 +4,7 @@ javascript.traits
 A simple way to inject methods to a javascript class
 
 Example:
-
+```javascript
 /**
  * useless functions that will be injected
  **/
@@ -37,3 +37,4 @@ console.log(someone.whoAmI());
 
 someone.changeMyName("new name");
 console.log(someone.whoAmI());
+```
